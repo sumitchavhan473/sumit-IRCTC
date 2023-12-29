@@ -1,0 +1,820 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.navbar-nav{
+    margin-left: 150px;
+    
+}
+
+
+ .navbar-nav a{
+    text-align: center;
+   padding: 15px;
+    color: black;
+ }
+ .navegatina{
+    padding-left: 5px;
+    
+ }
+ .logo{
+    margin-left: 30px;
+    
+    
+ }
+ .logo-1{
+   display: flex;
+   float: left;
+    margin-left: 180px;
+ }
+ .IRCTC-2{
+   margin-left: 30px;
+ }
+ .nav-btn{
+   margin-left: 45px;
+ }
+ .IRCTC a{
+    background-color:#213d77;
+    color: white;
+    font-weight: 500; 
+    padding: 10px;
+ }
+ .nav-link a{
+   background-color:#213d77 ;
+   color: white;
+   font-weight: 500; 
+   margin-left: 20px;
+   padding: 10px;
+   display: block;
+   width: 170px;
+}
+.img_logo{
+   width: 40px;
+   font-size: 15px;
+   padding: 5px;
+   
+
+
+}
+.aarow{
+   margin-left: 45px;
+   font-weight: 700;
+   
+}
+.aarow-1{
+   margin-left: 30px;
+   font-weight: 700;
+   
+}
+.link{
+   font-size: 15px;
+   font-weight: 500;
+   text-decoration: none;
+  
+}
+.link-1{
+   font-size: 15px;
+   font-weight: 500;
+   text-decoration: none;
+  
+}
+.link:hover{
+   background-color: aqua;
+}
+.link-1:hover{
+   background-color: aqua;
+}
+.link a{
+   text-decoration: none;
+   padding: 0%;
+   margin-left: 0%;
+   color: black;
+   
+}
+.navbar-nav .IRCTC-2{
+   position: absolute;
+   box-shadow:  gray;
+}
+
+.navbar-nav .IRCTC-2 ul {
+   list-style-type: none;
+   display: absulte;
+   display: none;
+  
+}
+.navbar-nav .IRCTC-2 ul ul {
+   position: absolute ;
+   list-style-type: none;
+   display: absulte;
+   display: none;
+  
+}
+.link_1 li{
+   padding: 8px 5px;
+}
+.link_1 li:hover{
+   background-color: #e3893f;
+}
+.navbar-nav .IRCTC-2:hover > ul{
+   display: block;
+   width: 230px;
+   height: 150px;
+   padding: 15px 5px;
+   background-color: white;
+   box-shadow: 0px 5px 5px 0px gray;
+
+}
+.link-1 li{
+   padding: 8px 5px;
+   list-style-type: none;
+   text-decoration: none;
+}
+.link-1 a {
+text-decoration: none;
+}
+.link-1 li:hover{
+   background-color: #e3893f;
+}
+.navbar-nav .IRCTC-2 .link:hover>ul{
+   display: block;
+   left: 90%;
+   top: 30%;
+   width: 220px;
+   padding: 15px 5px;
+   background-color: white;
+   box-shadow: 0px 5px 5px 0px gray;
+   transition: 5s;
+   
+}
+.navbar-nav .IRCTC-2 .link-1:hover>ul{
+   display: block;
+   left: 90%;
+   top: 70%;
+   width: 220px;
+   padding: 15px 5px;
+   background-color: white;
+   box-shadow: 0px 5px 8px 0px gray;
+   transition: 5s;
+
+  
+}
+.nav-btn .btn-btn{
+   display: none;
+}
+
+
+.IRCTC-2 .nav-btn{
+   position:absolute;
+   box-shadow:  gray;
+}
+.IRCTC-2 .nav-btn  {
+   list-style-type: none;
+   display: absulte; 
+}
+ .navbar-nav .nav-btn ul ul {
+   position: absolute ;
+   list-style-type: none;
+   display: none;
+}
+
+.navbar-nav .nav-btn:hover > ul{
+   display: block;
+   width: 230px;
+   left: 80%;
+   padding: 15px 5px;
+   background-color: white;
+   box-shadow: 0px 5px 5px 0px gray;
+
+}
+.navbar-nav .nav-btn .link:hover>ul{
+   display: block;
+   left: 40%;
+   top: 30%;
+   width: 220px;
+   padding: 15px 5px;
+   background-color: white;
+   box-shadow: 0px 5px 5px 0px gray;
+   transition: 5s;
+
+}
+
+.background-img{
+   background-repeat: no-repeat; 
+}
+
+.banner-image{
+   border: 1px solid white; 
+   margin-bottom: 10px;
+}
+.contain{
+   border: 1px solid;
+   width: 650px;
+   height: 530px;
+   background-color: white;
+   margin-top: 30px;
+   margin-left: 100px;
+   color: #213d77;
+}
+.PNR{
+   border: 1px solid  #213d77;
+   background-color: #213d77;
+   display: flex;
+   float: left;
+   text-align: center;
+   justify-content: center;
+   color: white;              
+}
+.chart-vacancy{
+display: flex;
+float: none;
+text-align: center;
+text-align: justify;
+justify-content: center;
+background-color: #213d77;
+border: 1px solid  #213d77;
+margin-left: 330px;
+color: white;
+}
+.logo-3{
+   float: left;
+   display: block;
+}
+.logo-4{
+display: grid;
+float: right;
+padding-top: 10px;
+
+}
+.Book{
+text-align: center;
+color: #213d77;
+font-weight: 500;
+font-size: 35px;
+}
+.form{
+   margin-top: 50px;
+   font-size: 10px;
+   padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 5px;  
+}
+
+.col-md-6 border border-dark from{
+   margin-left: 20px;
+}
+.col-md-4 border border-dark to :hover{
+   box-shadow: 1px 1px 2px 3px aqua;
+}
+.border{
+   border-radius: 3px;
+   height: 40px;
+   
+   
+}
+.box{
+   size: 30px;
+}
+.container{
+display: flex;
+}
+
+.icon{
+   text-align: center;
+   justify-content: center;
+   margin-left: 200px;
+   border: 1px solid;
+   border-radius: 50%;
+   margin-top: 3px;
+}
+.material-symbols-outlined{
+   margin-top: 5px;
+
+}
+.arrow{
+   margin-left: 150px;
+}
+.date{
+   text-align: right;
+   margin: 10px;
+}
+.common{
+   display: flex;
+   margin-bottom: 20px;
+   }
+   .checkbox{
+      font-weight: 600;
+      
+   }
+   .button-0{
+   width: 110px;
+   border-radius: 5px;  
+   padding: 5px;
+   margin-left: 20px;
+   background-color: rgb(240, 121, 36);
+   }
+   .button-1{
+   margin-left: 230px;
+   
+   }
+   .button-2{
+      width: 250px; 
+      border-radius: 5px;  
+      padding: 5px;
+      background-color: rgb(91, 223, 91);
+      }
+      .Notes{
+         border: 1px solid;
+         background-color: white;
+         width: 650px;
+         margin-left: 100px;
+         margin-top: 5px;
+         padding: 5px;
+
+      }
+      
+      .container-fluid_1{
+         border: 1px solid aliceblue;
+         margin-top: 40px;
+         height: 150px;
+         background-color: aliceblue;
+         border-bottom: 1PX solid rgb(192, 184, 184);
+      }
+      .image{
+         text-align: center;
+         padding: 10px;
+         
+      }
+      .banner-SBI{
+         margin: 25px;
+         text-align: center;
+      }
+      .heding{
+         border: 1px solid white;
+         width: 600px;
+         font-size: 35px;
+         text-align: center;
+         margin-top: 40px;
+         margin-left: 400px;
+      }
+      .flight{
+        border: 1px solid;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+        
+      }
+      .flight-border:hover{
+         border: px solid;
+         height: 160px;
+         width: 160px;
+         color: white;
+         background-color: rgb(160, 160, 175);
+      }
+      .flight-border{
+         border: 1px solid;
+         width: 160px;
+         height: 160px;
+         border: none;
+         margin-left: 250px;
+         
+      }
+      .hotel{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         margin: 30px;
+         padding: 10px;
+         
+       }
+       .hotel-border:hover{
+          border: px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+       }
+       .hotel-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .Rail-dristi{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+       }
+       
+       .Rail-dristi-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+         
+       }
+       .Rail-dristi-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .E-catering{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         margin: 20px;
+         padding: 10px;
+         margin-left: 30px;
+ 
+       }
+      
+       .E-catering-border:hover{
+          border: px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+         background-color: rgb(160, 160, 175);
+       }
+       .E-catering-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .bus{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         margin: 25px;
+         padding: 10px;
+        
+       }
+       
+       .bus-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          border-color: white;
+          background-color: rgb(160, 160, 175);
+          
+       }
+       .bus-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .container-fluid_grid{
+         display: flex;
+         text-align: center;
+       }
+       .container-fluid-grid-2{
+         display: flex;
+         margin-top: 20px;
+         
+       }
+       .holiday{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+         margin: 20px;
+         margin-left: 28px;
+       }
+       
+       .holiday-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+         
+       }
+       .holiday-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 250px;
+          
+       }
+       .train{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+         margin: 20px;
+         margin-left: 28px;
+       }
+       
+       .train-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+         
+       }
+       .train-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .hill-train{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+         margin: 20px;
+         margin-left: 28px;
+       }
+       
+       .hill-train-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+         
+       }
+       .hill-train-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .charter-train{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+         margin: 20px;
+         margin-left: 28px;
+       }
+       .charter-train-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);  
+       }
+       .charter-train-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .gallery{
+         border: 1px solid;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         text-align: center;
+         padding: 10px;
+         margin: 20px;
+         margin-left: 28px;
+       }
+       
+       .gallery-border:hover{
+          border: 1px solid;
+          height: 160px;
+          width: 160px;
+          color: white;
+          background-color: rgb(160, 160, 175);
+         
+       }
+       .gallery-border{
+          border: 1px solid;
+          width: 160px;
+          height: 160px;
+          border: none;
+          margin-left: 50px;
+       }
+       .container-banner-2{
+         margin-top: 50px;
+         
+       }
+      .images-2{
+         text-align: center;
+         margin-top: 20px;
+         
+         
+      }
+      .container-banner-3{
+         border-top: 2px solid rgb(140, 136, 136);
+         box-shadow: 2px rgb(142, 138, 138);
+         background-color: rgb(241, 237, 237);
+      }
+      .container-iframe{
+         margin-top: 20px;
+         text-align: center;
+         border: 1px solid white;
+         border-radius: 10px;
+         height: 300px;
+         width: 500px;
+         margin-left: 470px;
+         background-color: white;
+      }
+      .card-img-top{
+        width: 350px;
+      }
+     
+      .card-text{
+         padding: 10px;
+      }
+      .card-title{
+         margin: 20px;
+      }
+      .heding-3{
+         text-align: center;
+         margin: 40px;
+      }
+      .card-1{
+         border: 1px solid white;
+         background-color: white;
+         width: 350px; 
+         margin: 20px;
+         margin-left: 180px;
+      }
+      .card-2{
+         border: 1px solid white;
+         background-color: white;
+         width: 350px; 
+         margin: 20px;
+      }
+      .card-3{
+         border: 1px solid white;
+         background-color: white;
+         width: 350px; 
+         margin: 20px;
+      }
+      .card-4{
+         border: 1px solid white;
+         background-color: white;
+         width: 350px; 
+         margin: 20px;
+         margin-left: 180px;
+      }
+      .card-5{
+         border: 1px solid white;
+         background-color: white;
+         width: 350px; 
+         margin: 20px;
+         background-image: linear-gradient(100deg,#e3893f 0, rgb(245, 225, 225), #50ac3b);
+      }
+      .images-banner{
+         margin: 20px;
+      
+      }
+      .button-btn{
+         margin: 10px;
+         border: none;
+         padding-bottom: 5px;
+      }
+      
+      .fa fa-facebook{
+         border: 1px solid rgb(92, 234, 125);
+         border-radius: 50%;
+         color: white;
+      }
+      .social_network{
+         padding: 10px;
+         text-decoration: none;
+      }
+      .container-networks{
+         background-image: linear-gradient(270deg,#9b4b90 0,#2c215d);
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+        
+
+      }
+      .text-1{
+         color: white;
+         text-align: center;
+         padding: 30px;
+         font-size: 17px;
+      }
+      .information{
+         margin-top: 5px;
+      }
+      
+     .container-background{
+      margin-top: 4px;
+      background-color: #2c215d;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+     
+      
+     }
+     .list-2{
+      padding-left: 80px;
+     }
+     .list-3{
+      padding-left: 80px;
+     }
+     .list-4{
+      padding-left: 80px;
+     }
+     
+   
+      .accordion-item{
+         color: white;
+         font-weight: 700;
+         
+      }
+      .accordion-title{
+         padding: 10px 10px;
+      }
+      .accordion-title:hover{
+         border: 1px solid brown;
+         width: fit-content;
+         transition: border 1s;
+      }
+      .content-list{
+         display: none;   
+      }
+      .content-list ul li ul li{
+         display: none;
+      }
+      
+      .content-list a{
+         text-decoration: none;
+         font-weight: normal;
+         color: white;
+         
+      }
+      .accordion-item.active .content-list{
+         display: block;
+      }
+      .conteiner-logo{
+         display: flex;
+        text-align: right;
+        justify-content: center;
+      }
+      .copyright{
+         font-size: 13px;
+         padding-left: 80px;
+      }
+      
+     
+      
+@media(max-width: 500px) {
+    .navagation{
+        display: block;
+        
+   
+     } 
+
+     .navagation_1{
+        display: block;
+     }
+     .logo-2{
+      display: none;
+      margin: 0%;
+     }
+     .logo img{
+      display: none;
+      margin: 0%;
+     }
+     .logo-1 img{
+      display: none;
+      margin: 0%;
+     }
+    
+}
